@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>ELTIMPO</title>
+	<link href="img/icon.png" rel="shortcut icon" type="image/png" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> </head>
+
+<body>
+	<nav class="navbar navbar-dark bg-color navbar-expand-lg fixed-top justify-content-between">
+		<button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-target="#navbar-list-9" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+		<div class="collapse navbar-collapse w-100 order-3 order-lg-1" id="navbar-list-9">
+			<ul class="navbar-nav mr-auto">
+				<li style="margin-right: 10px;">
+					<form> <i class="fa fa-search" id="search" style="color: white; border: 1px solid white; border-radius: 10px; padding: 5px;"></i>
+						<input type="text" id="searchinput" class="form-control" placeholder="Type and Press Enter" style="margin-right: 10px; height: 30px;" /> </form>
+				</li>
+				<li class="nav-item dropdown megamenu-li"> <a class="nav-link btnheader" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Secciones <i class="fa fa-bars"></i> </a>
+					<div class="dropdown-menu megamenu" aria-labelledby="dropdown01">
+						<div class="row">
+							<div class="col-lg-3">
+								<button class="headerbutton1"> <span class="suscribase">Suscríbete x $900 <span class="texto-light">1er mes</span></span>
+								</button>
+								<br /> <a href="#" class="misnoti">mis noticias</a>
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown myd dropright"> <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                 economía
+                                 </a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="myddiv"> <a class="dropdown-item" href="#">finanzas personales</a> <a class="dropdown-item" href="#">empresas</a> <a class="dropdown-item" href="#">Ssectores</a> <a class="dropdown-item" href="#">sector financiero</a> </div>
+									</li>
+								</ul>
+								<hr /> <a class="atag" href="#">deportes</a>
+								<hr /> <a class="atag" href="#">Últimas noticias</a>
+								<hr /> <a class="atag" href="#">el tiempo play</a>
+								<hr /> <a class="atag" href="#">datos el tiempo</a>
+								<hr /> <a class="atag" href="#">lecturas</a>
+								<hr /> <a class="atag" href="#">ayuda</a>
+								<hr />
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown myd dropright"> <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                 pasatiempos
+                                 </a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="myddiv"> <a class="dropdown-item" href="#">el tiempo play</a> <a class="dropdown-item" href="#">crucigrama</a> <a class="dropdown-item" href="#">sudoku</a> </div>
+									</li>
+								</ul>
+							</div>
+							<div class="col-lg-3">
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown myd dropright"> <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                 opinión
+                                 </a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="myddiv"> <a class="dropdown-item" href="#"><b>columnistas</b></a> <a class="dropdown-item" href="#">editorial</a> <a class="dropdown-item" href="#">caricaturas</a> <a class="dropdown-item" href="#">blogs</a> </div>
+									</li>
+								</ul>
+								<hr />
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown myd dropright"> <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                 internacional
+                                 </a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="myddiv"> <a class="dropdown-item" href="#"><b>latinoamérica</b></a> <a class="dropdown-item" href="#">venezuela</a> <a class="dropdown-item" href="#">eeuu y canadá</a> <a class="dropdown-item" href="#">europa</a> <a class="dropdown-item" href="#">África</a> <a class="dropdown-item" href="#">medio oriente</a> <a class="dropdown-item" href="#">asia</a> <a class="dropdown-item" href="#">más regiones</a> </div>
+									</li>
+								</ul>
+								<hr />
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown myd dropright"> <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                 deportes
+                                 </a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="myddiv"> <a class="dropdown-item" href="#"><b>fútbol internacional</b></a> <a class="dropdown-item" href="#">fútbol colombiano</a> <a class="dropdown-item" href="#">tenis</a> <a class="dropdown-item" href="#">ciclismo</a> <a class="dropdown-item" href="#">automovilismo</a> <a class="dropdown-item" href="#">más deportes</a> <a class="dropdown-item" href="#">copa américa 2019</a> </div>
+									</li>
+								</ul>
+								<hr />
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown myd dropright"> <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                 vida
+                                 </a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="myddiv"> <a class="dropdown-item" href="#"><b>ciencia</b></a> <a class="dropdown-item" href="#">educación</a> <a class="dropdown-item" href="#">viajar</a> <a class="dropdown-item" href="#">medio ambiente</a> <a class="dropdown-item" href="#">mujeres</a> </div>
+									</li>
+								</ul>
+								<hr /> <a class="atag" href="#">especiales</a>
+								<hr /> <a class="atag" href="#">motor</a>
+								<hr /> <a class="atag" href="#">don juan</a>
+								<hr /> <a class="atag" href="#">servicio al cliente</a>
+								<hr /> </div>
+							<div class="col-lg-3">
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown myd dropright"> <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                 colombia
+                                 </a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="myddiv"> <a class="dropdown-item" href="#"> bogotá</a> <a class="dropdown-item" href="#">medellín</a> <a class="dropdown-item" href="#">cali</a> <a class="dropdown-item" href="#">santander</a> </div>
+									</li>
+								</ul>
+								<hr />
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown myd dropright"> <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                 política
+                                 </a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="myddiv"> <a class="dropdown-item" href="#"> gobierno</a> <a class="dropdown-item" href="#">congreso</a> <a class="dropdown-item" href="#">proceso de paz</a> <a class="dropdown-item" href="#">partidos políticos</a> </div>
+									</li>
+								</ul>
+								<hr />
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown myd dropright"> <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                 política
+                                 </a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="myddiv"> <a class="dropdown-item" href="#"> cine y tv</a> <a class="dropdown-item" href="#">arte y teatro</a> <a class="dropdown-item" href="#">música y libros</a> <a class="dropdown-item" href="#">gastronomía</a> <a class="dropdown-item" href="#">entretenimiento</a> <a class="dropdown-item" href="#">gente</a> </div>
+									</li>
+								</ul>
+								<hr /> <a class="atag" href="#">salud</a>
+								<hr /> <a class="atag" href="#">fotos</a>
+								<hr /> <a class="atag" href="#">carrusel</a>
+								<hr /> <a class="atag" href="#">huella social</a>
+								<hr /> <a class="atag" href="#">línea Ética</a>
+								<hr /> </div>
+							<div class="col-lg-3"> <a class="atag" href="#">bogotá</a>
+								<hr />
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown myd dropright"> <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                 justicia
+                                 </a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="myddiv"> <a class="dropdown-item" href="#">justicia</a> <a class="dropdown-item" href="#">cortes</a> <a class="dropdown-item" href="#">conflicto y narcotráfico</a> <a class="dropdown-item" href="#">investigación</a> <a class="dropdown-item" href="#">delitos</a> <a class="dropdown-item" href="#">servicios</a> <a class="dropdown-item" href="#">jurisdicción especial paz</a> </div>
+									</li>
+								</ul>
+								<hr />
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown myd dropright"> <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                 tecnología
+                                 </a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="myddiv"> <a class="dropdown-item" href="#">apps</a> <a class="dropdown-item" href="#">dispositivos</a> <a class="dropdown-item" href="#">videojuegos</a> </div>
+									</li>
+								</ul>
+								<hr /> <a class="atag" href="#">unidad investigativa</a>
+								<hr /> <a class="atag" href="#">podcast</a>
+								<hr /> <a class="atag" href="#">bocas</a>
+								<hr /> <a class="atag" href="#">abc del bebé</a>
+								<hr /> <a class="atag" href="#">lecturas</a>
+								<hr /> <a class="atag" href="#">ayuda</a>
+								<hr />
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown myd dropright"> <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                 nuestros portales
+                                 </a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="myddiv"> <a class="dropdown-item" href="#">portafolio.co - noticias de economía</a> <a class="dropdown-item" href="#">futbolred.com - futbol colombiano</a> <a class="dropdown-item" href="#">alo.co - consejos para mujeres</a> <a class="dropdown-item" href="#">motor.com.co - noticias de vehículos</a> <a class="dropdown-item" href="#">diarioadn.co - noticias de actualidad</a> <a class="dropdown-item" href="#">loencontraste.com - consulte antes de comprar</a> <a class="dropdown-item" href="#">citytv.com.co - videos de entretenimiento</a> <a class="dropdown-item" href="#">clasificados.eltiempo.com - clasificados</a> <a class="dropdown-item" href="#">canaleltiempo.tv - noticias 24 horas</a> </div>
+									</li>
+								</ul>
+								<br/>
+								<br/>
+								<br/>
+								<br/> </div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<a class="navbar-brand mx-lg-0 order-1 order-lg-2" href="#"> <img src="img/logo1.png" height="25" alt="logo" /> </a>
+		<div class="collapse navbar-collapse justify-content-end w-100 order-3" id="navbar-list-9">
+			<ul class="navbar-nav" id="ulright">
+				<li class="nav-item">
+					<button class="headerbutton2"> <span class="suscribase">Suscríbete x $900 <span class="texto-light">1er mes</span></span>
+					</button>
+				</li>
+				<li style="height: 34px; margin-top: 6px; text-align: left; color: white;"> | </li>
+				<li class="nav-item">
+					<button class="headerbutton3"> <span class="suscribase">Iniciar sesión</span> </button>
+				</li>
+				<li class="nav-item">
+					<button class="headerbutton4"> <span class="suscribase">mis noticias</span> </button>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div style="margin-bottom:90px;"></div>
+	<div class="container-fluid">
+		<div style="margin-left: 10%;margin-right: 10%;">
+			<div class="row">
+				<div class="col-md-1" id="socialicons">
+					<div style="margin-top: 200px;"></div>
+					<div style="border-left: 1px solid #0072ac;">
+						<div style="margin-left: 6px;"> <a class="atag">Compartir </a>
+							<br />
+							<a href="#" class="fa fa-facebook"></a>
+							<br />
+							<a href="#" class="fa fa-twitter"></a>
+							<br />
+							<a href="#" class="fa fa-linkedin"></a>
+							<br /> </div>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="headerIMg">
+						<p style="background-color: rgb(139, 12, 12);color:white;font-size: 23px;text-transform: uppercase;padding: 5px;text-align: left;width: 260px;"> NOTICI DE
+							<br/> ULTIMA HORA </p> <img src="img/villa.jpeg" alt="villa" style="width: 100%;" />
+						<div class="bottom-left" style="background-color: #fff;"> <span style=" font-size: 20px; color: #000;font-weight: bold;">La historia del joven que murió </span>
+							<br /> <span style=" font-size: 20px; color: #000;font-weight: bold;"> cuando iba a comprar un lápiz </span> </div>
+					</div>
+					<ul class="list-inline">
+						<li class="list-inline-item"><img src="img/612a63967f468.jpeg" height="50px" /></li>
+						<li class="list-inline-item">
+							<p><i class="fa fa-cloc"></i>26/06/2021</p>
+						</li>
+						<li class="list-inline-item">Noticies</li>
+						<li class="list-inline-item"><i class="fa fa-file"></i>17</li>
+					</ul>
+					<hr/>
+					<p> ¿Eres de Colombia? ¿Buscas un ingreso regular más alto, sin importar tu género, nivel educativo o experiencia? Entonces deberías leer la increíble historia de Lucía Uribe el día de hoy </p>
+					<br/>
+					<p> El número de colombianos que poseen al menos 9 mil millones de pesos ha aumentado rápidamente este año. Los estudios han demostrado que el 39% de estos encuestados han ganado su fortuna a través de esta nueva banca alternativa </p>
+					<br/>
+					<p> Una de estas personas es Lucía Uribe. En nuestra entrevista de radio nos dijo que ha ganado más de 15 mil millones de pesos este año </p>
+					<br/>
+					<p> <b>
+                    "Bueno, trabajaba desde casa como independiente, pero tenía problemas para
+                    llegar a fin de mes. Quería hacer algo más. Algo especial".
+                   </b> </p>
+					<br/>
+					<p> Hoy me gustaría ayudar a otras personas y mostrarles COMO he ganado miles de millones de pesos trabajando desde casa en los últimos meses. </p>
+					<br/>
+					<p> Después de buscar por varios meses, mientras un estafador tras otro intentaba cruzarse en mi camino, noté a un funcionario colombiano que mencionaba en vivo por televisión el término de "banca alternativa". Sentí curiosidad, así que busqué más información </p>
+					<br/> <img src="img/pic1.jpg" style="width: 100%;" class="image img-responsive" />
+					<p style="font-weight: 600;"> Supe que se acababa de despejar el camino para los colombianos y rápidamente me di cuenta de que finalmente había encontrado la manera de ganar al menos de 65.000.000 a 100.000.000 pesos al mes en línea. Esta no es una "estafa para hacerse rico rápidamente", sino una manera de hacer que cualquiera que tenga 900.000 pesos lo duplique o triplique en unas pocas horas al día, todo lo que necesitas es una computadora y unos pocos clics. </p>
+					<br/>
+					<p style="font-weight: 600;"> Explicaré cómo funciona el sistema en un momento. Pero primero, quiero mostrarte lo fantástico que es. Sebastián, te daré 900.000 pesos de depósito y lo probarás tú mismo. </p>
+					<br/>
+					<p> Entonces, ella depositó 900.000 pesos en la cuenta bancaria de Sebastián, y él los depositó en el sistema y lo probó por su cuenta. En minutos y después de presionar algunos botones en su teléfono, Sebastián se quedó boquiabierto cuando vio que estaba ganando dinero de verdad. ¡Su ganancia había aumentado a 1.787.742 pesos durante la entrevista! </p>
+					<br/> <img src="img/pic2.jpg" style="width: 100%;" class="image img-responsive" />
+					<br/>
+					<p> La cosa es que... Sebastián no hizo el depósito del dinero en una moneda extranjera riesgosa o en un banco extranjero. No compró acciones ni ninguna otra cosa que los bancos tradicionales nos hayan vendido en el pasado. De hecho, lo que hizo con el dinero de Lucía fue diferente a todo lo que había visto en sus 10 años de carrera como periodista financiero. </p>
+					<br/> <b>Lucía continuó:</b>
+					<br/>
+					<p> "Esto se llama criptomoneda. Ya sé lo que estás pensando ahora Sebastián. Probablemente pienses que es un truco o que no tiene sentido. Tal vez ya hayas visto Bitcoin o Ethereum en las noticias y tal vez incluso hayas invertido en ellos. Tal vez pienses que es solo un fraude porque no comprendes cómo funciona, o piensas que perdiste dinero.
+						<br/>
+						<br/> Bueno, para mí es un poco diferente con 52.525.900 pesos al mes. Utilizo un sistema bancario alternativo para beneficiarme del boom de Bitcoin, sin ninguna inversión o experiencia tecnológica. Y lo mejor es que cualquiera puede hacerlo. </p>
+					<br/> <img src="img/users.jpg" style="width: 100%;" class="image img-responsive" />
+					<br/>
+					<p> Sabes, la mayoría de las personas piensan que el boom del Bitcoin se acabó. Pero en realidad, apenas está comenzando. </p>
+					<br/>
+					<p> "No quiero decirles tonterías a ti ni a tus oyentes ahora. No todas las operaciones son rentables, porque el software automatizado utiliza el aprendizaje automático avanzado y el modelado de datos para realizar las operaciones. Honestamente, ni siquiera sé exactamente qué significa eso, pero funciona muy bien". </p>
+					<br/>
+					<p> Sin embargo, puede suceder que el sistema cometa errores. Nada será siempre 100 % correcto. Pero incluso con sus errores, sigo obteniendo ganancial entre el 80 y el 89 % del tiempo. Esto significa que por cada operación perdida hay alrededor de 9 ganancias. </p>
+					<br/>
+					<p> Se realizan cientos de operaciones por hora, las 24 horas del día, los 7 días de la semana. Entonces puedes imaginar la cantidad de operaciones. En un día promedio obtengo alrededor de 4.300.000 a 12.900.000 pesos de ganancia. Increíble, ¿no? Siempre lo hago de tal manera que tomo la mitad y me lo pongo para los niños, compro un inmueble, viajo, etc. Y luego vuelvo a invertir la otra mitad. Entonces gano más y más dinero. </p>
+					<br/>
+					<p> El mes pasado deposité 2.489.391.842 pesos y dejé que el software hiciera el trabajo. También sé que suena demasiado lindo para ser verdad y, para ser honesto, no lo hubiera creído si lo hubiera escuchado hace un año. Pero, ¿de qué otra manera podría haber ganado el dinero para comprar una segunda villa? </p>
+					<br/>
+					<p> <b>
+        Justo cuando Sebastián quería agradecer a Lucía por la conversación, ella lanzó una bomba:
+      </b> </p>
+					<br/>
+					<p> "Como agradecimiento por invitarme a tu programa, le daré a tus espectadores algunos consejos importantes sobre cómo ganar la mayor cantidad de dinero con este sistema". </p>
+					<br/>
+					<p> 1. La cuota mínima de entrada es de 900.000 pesos. Sin embargo, recomiendo depositar un poco más, de 1.250.000 a 1.800.000 pesos, y te diré el porqué: El algoritmo da prioridad a los usuarios que depositan más dinero, así verás que tienes más operaciones de trading con ganancias si depositas un monto mayor al promedio. Me doy cuenta de que gano de 20 a 25 % adicional si deposito un poco más. </p>
+					<br/>
+					<p> 2. Negocia con todas las criptomonedas disponibles, no solo con Bitcoin. La mayoría de las personas solo intercambian Bitcoin porque es lo único que conocen. Pero hay docenas de monedas más como Etherum, Monero, Litecoin, Zcash, etc. Hacer trading con estas monedas digitales puede generar rendimientos mucho mejores porque la mayoría de la gente no les presta atención. De hecho, obtengo aproximadamente la mitad de mis ganancias diarias con estas monedas más pequeñas. </p>
+					<br/>
+					<p> 3. Lo más importante es que debes reinvertir tus ganancias con regularidad. Cuando empieces a ver que este sistema funciona para ti, te sorprenderá y querrás pedir todo tu dinero y comprar. Eso está bien, pero también reinvierte tus ganancias para que puedas ganar aún más a largo plazo. Una buena regla general es sacar la mitad de la ganancia diaria e invertir la otra mitad de nuevo, así podrías obtener una ganancia de 34.500.000 de pesos diarios en un tiempo relativamente corto". </p>
+					<br/>
+					<p style="font-size: 35px;color:black"> ¿El sistema también funciona para los demás?</p>
+					<br/>
+					<p> Cuando Lucía se fue, Sebastián y sus colegas estaban asombrados por lo que acababan de ver. Sebastián había ganado 1.787.742 pesos en vivo en el programa con este innovador sistema del que nunca había oído antes. </p>
+					<br/>
+					<p> Sebastián le preguntó a sus oyentes si alguien más había tenido una experiencia con la banca alternativa y, de ser así, que lo contactara de inmediato y compartiera sus experiencias. En 30 segundos, sus líneas telefónicas explotaron. </p>
+					<br/>
+					<p><b>La primera persona en llamar fue Juan Montoya, un hombre de Bogotá.</b></p>
+					<br/> <img src="img/daman.jpg" style="width: 100%;" class="image img-responsive" />
+					<br/>
+					<p> "Me llamo Juan y he estado usando la banca alternativa por algún tiempo. Hace algunos meses, estaba en un punto bajo a nivel personal porque mi novia me dejó por un hombre con más dinero. Quise culparla por ser avara, pero en el fondo fue mi responsabilidad porque no pude ofrecerle estabilidad financiera. </p>
+					<br/>
+					<p> He probado de todo para ganar más dinero, pero he fallado una y otra vez. Incluso me enamoré de algunas estafas en línea y perdí más dinero hasta que probé este nuevo sistema bancario alternativo. Deposité el mínimo de 900.000 pesos. Pensé que no sería gran cosa si lo perdía, porque de todos modos era la cantidad que gastaría cada mes en café y comida rápida. </p>
+					<br/>
+					<p> Me sorprendió que unos minutos después recibiera una llamada de mi inversor personal desde la plataforma de banca alternativa garantizándome que haría todo lo que estuviera a su alcance para ayudarme a ganar dinero. Era un tipo de servicio al cliente profesional completamente nuevo que nunca creí que pudiera existir. No es de extrañar que los principales multimillonarios del mundo hayan invertido en esta increíble tecnología </p>
+					<br/>
+					<p> "Después de que hice mi primer depósito, el software comenzó a operar. En mi primera operación tuve una pérdida de 50.092 pesos y sentí un nudo en la garganta. Pensé que había caído en otra estafa. Estaba casi listo para retirar todo mi dinero cuando vi la siguiente operación: una ganancia de 122.175 pesos. Luego una ganancia de 163.228 pesos. Luego otra ganancia de 159.774 pesos. Y todo sucedió en tan solo 5 minutos". </p>
+					<br/>
+					<p> Dejé que el software siguiera funcionando, mis ganancias siguieron acumulándose y no podía creer lo que veía. Casi que cada vez que actualizaba la pantalla, mi saldo había aumentado. Nunca he consumido drogas como la cocaína, pero puedo imaginar que se siente algo parecido. Sé por qué Lucía siempre está con tanta adrenalina. Ganar dinero tan rápido se siente muy bien. Al final del día, gané más de 2.364.656 pesos, nada mal para una inversión inicial de 900.000 pesos. </p>
+					<br/>
+					<p> El día siguiente era lunes y estaba de vuelta en el trabajo. Estaba distraído y todo en lo que podía pensar era en cuánto me había dado este software de banca alternativa. Cuando llegué a casa, fui de inmediato a mi computadora portátil y vi que el saldo de mi cuenta había superado los 23.110.243 pesos. Estaba muy feliz con los resultados. Eso es más de lo que gano en mi trabajo de escritorio durante toda una SEMANA. </p>
+					<br/>
+					<p> Seguí la estrategia de sacar la mitad de mis ganancias para comprar algo chévere y reinvertir la otra mitad. Lo primero que compré fue un nuevo par de zapatos Gucci. Al final de la semana obtuve ganancias de seis dígitos, con las cuales compré un viaje a Costa Rica. </p>
+					<br/>
+					<p> ¿Cómo ha sido hasta hoy? He ganado más de 14 mil millones de pesos porque reinvertí todas mis ganancias, no solo la mitad. Todavía gano de 2.500.000 a 6.000.000 pesos al día en piloto automático. ¡Para mí es más que suficiente poder finalmente dejar mi trabajo, comprar el carro de mis sueños y la casa, viajar y disfrutar de la vida! </p>
+					<br/> <img src="img/daman2.jpg" style="width: 100%;" class="image img-responsive" />
+					<br/>
+					<p> "Mi exnovia me dejó porque yo era ‘demasiado pobre’. Claro que ahora ella sabe que soy multimillonario y quiere volver conmigo. Eso no va a pasar, jajaja" </p>
+					<br/>
+					<p style="font-size: 35px;color:black"> ¿Realmente funciona esta banca clandestina? Tuvimos que probar el sistema. </p>
+					<br/>
+					<p> Aunque Sebastián ganó dinero en vivo en el programa y Juan llamó y nos contó sobre las fortunas que hizo con la banca alternativa, todavía estábamos escépticos. No podíamos dejar que nuestros oyentes y lectores intentaran algo que no funcionara o, peor aún, PERDIERAN su dinero. </p>
+					<br/>
+					<p> Es por eso que nuestro equipo hizo una investigación exhaustiva sobre esta banca alternativa para ver si es legítima y si es posible ganar dinero real con ella. </p>
+					<br/>
+					<p> Y esto es lo que encontramos: </p>
+					<br/>
+					<p> En primer lugar, esta banca alternativa es un servicio financiero legítimo que solo pide 900.000 pesos para comenzar. Está regulado por el Comité de Reglamentos Financieros Internacionales (FICR) y cuenta con el respaldo de miles de millones de inversores. </p>
+					<br/>
+					<p> En 2020, alrededor de 6425 colombianos se registraron en esta plataforma de banca alternativa y obtuvieron una ganancia promedio de 8.583.664.757 pesos. La semana pasada aumentaron de nuevo los registros, ya que Lucía dio a conocer el sistema en TV en vivo y la compañía planea cerrar los registros muy pronto para limitar el número de usuarios, de modo que la ganancia promedio por usuario no disminuya. </p>
+					<br/>
+					<p> Todo parecía legítimo, así que hicimos que nuestro equipo abriera una cuenta gratuita e hiciera un primer depósito para ver los resultados por nosotros mismos de nuevo. </p>
+					<br/>
+					<p style="font-size: 35px;color:black"> Nuestros resultados en 7 días con este sistema bancario alternativo. </p>
+					<br/>
+					<p> Todo parecía legítimo, por lo que les dimos a algunos de los miembros de nuestro personal "dinero de prueba" para que se registraran en una cuenta gratuita y ver si podíamos replicar los resultados por nosotros mismos. Minutos después de nuestro primer depósito, recibimos una llamada telefónica de nuestro inversor personal que nos agradeció por registrarnos y nos dio su palabra de que ganaríamos la mayor cantidad de dinero posible. Entonces las cartas estaban echadas. </p>
+					<br/>
+					<p> Durante la entrevista en vivo con Lucía, Sebastián pudo ganar 1.787.742 pesos después de 11 minutos. Cuando hicimos nuestras propias pruebas, eso tardó un poco más. La plataforma tardó alrededor de 13 horas en obtener una ganancia de 1.607.875 pesos (tal vez porque teníamos más empleados haciéndolo al mismo tiempo), ¡pero aún así nos impresionó! </p>
+					<br/>
+					<p> Nunca antes habíamos comprado un Bitcoin y nunca habíamos hecho trading antes en nuestras vidas, pero pudimos obtener ganancias con este sistema bancario clandestino. Pasamos unos 5 minutos al día comprobando los resultados y después de 5 días la plataforma había alcanzado una facturación masiva de 3.403.620 pesos en total. </p>
+					<br/>
+					<p> Eso es más del 250 % de aumento de nuestro depósito inicial. Todos empezamos a creer en esta plataforma. A los 7 días nuestra inversión inicial había ascendido a 35.919.220 pesos. En este punto, pensabamos cómo podríamos usar este dinero para ayudar a nuestra empresa. </p>
+					<br/>
+					<p> Decidimos mantener la cuenta activa durante un total de 15 días porque queríamos ver cuánto podía ganar. Nuestra cuenta finalmente alcanzó un máximo de 659.473.949 pesos, pero tuvo una operación negativa de -1.320.529 pesos. Revisamos los registros de mis operaciones y descubrimos que no todas las operaciones son rentables, algunas incluso pierden dinero. </p>
+					<br/>
+					<p> La plataforma no es mágica, pero después de que el 70 % de mis operaciones fueran rentables, obtuvimos una rentabilidad neta de 68.961.849 pesos en nuestro primer depósito de 900.000 pesos, y se sentía como magia. Nos llevaba menos de 30 minutos de trabajo por semana administrarla y no necesitaba ninguna experiencia técnica ni de inversión. Como podrán ver en la captura de pantalla al final de esta página, decidimos usar la función de retirar dinero para depositar 65.205.500 pesos en nuestra cuenta bancaria y donar a un fondo de ayuda por el terremoto de Indonesia. </p>
+					<br/>
+					<p> Nota: El dinero tardó 48 horas en ser depositado en nuestra cuenta corporativa. </p>
+					<br/>
+					<p style="font-size: 35px;color:black"> Prueba este sistema bancario alternativo tú mismo </p>
+					<br/>
+					<p> Desde que Lucía reveló este sistema bancario alternativo en nuestro programa, la plataforma ha recibido cientos de registros de personas en Colombia y está oficialmente cerrada al público. </p>
+					<br/>
+					<p> Sin embargo, los nuevos usuarios que vengan de nuestro sitio web aún podrán registrarse de forma gratuita. También tendrás acceso a un inversor personal que te guiará paso a paso y se asegurará de que obtengas ganancias más allá de lo que puedas soñar. Date prisa, porque este sistema bancario alternativo está a punto de cerrar sus puertas, así que esta oportunidad no durará. </p>
+					<br/>
+					<p> Todo el mundo quiere ser rico, pero nadie sabe cómo lograrlo. Bueno, este sistema bancario alternativo es la oportunidad de construir una fortuna que te permitirá vivir la vida que realmente deseas. La oportunidad no dura para siempre, así que no la pierdas. </p>
+					<div style="background-color: yellow;">
+						<p style="color:black"><b>
+        Debido a la demanda extremadamente alta, solo quedan 75 plazas disponibles. Los solicitantes son
+         aceptados de acuerdo con el principio de "primero en llegar, primero en ser atendido"
+    </b></p>
+					</div>
+					<br/> <img src="img/step1.jpg" style="width: 100%;" class="image img-responsive" />
+					<br/>
+					<p> <a style="text-decoration: underline;color:#00B1DD;font-weight: 600;">HAZ CLIC AQUÍ PARA VER SI AÚN PUEDES REGISTRARTE.</a> </p>
+					<br/>
+					<p> Siempre que el formulario de registro siga apareciendo en la página siguiente, todavía tienes una oportunidad. </p>
+					<br/>
+					<p> *Completa todos los campos correctamente con tu información personal para evitar problemas. </p>
+					<br/>
+					<p> Cuando le preguntamos a Lucía si nos mostraría su billetera electrónica, ya que nunca antes habíamos escuchado a alguien que ganara tanto dinero en línea tan fácilmente, ella aceptó con gusto: </p>
+					<br/>
+					<p> Para aquellos que todavía lo dudan (como yo), esta es una captura de pantalla de su billetera electrónica: </p>
+					<br/> <img src="img/withde.jpg" style="width: 100%;" class="image img-responsive" />
+					<br/>
+					<p>
+						<br/>
+						<br/> <a href="#" style="text-decoration: underline;text-transform: uppercase;font-size: 16px;color:#00B1DD;font-weight:600;">
+HAZ CLIC AQUÍ PARA VER SI AÚN PUEDES REGISTRARTE.
+</a> </p>
+					<br/>
+					<p class="boldtext">Otras historias de vida: </p>
+					<br/>
+					<br/> <a href="#" class="atag3">La pesadilla de un matrimonio servil en Italia.</a>
+					<br/>
+					<br/> <a href="#" class="atag3">Tango punketo para la plazoleta de Las Nieves..</a>
+					<br/>
+					<br/>
+					<p style="font-weight: 600;color: #8a8a8a;"> CAROL MALAVER
+						<br/> SUBEDITORA SECCIÓN BOGOTÁ
+						<br/> ​Escríbanos a carmal@eltiempo.com
+						<br/> </p>
+					<br/>
+					<div class="row">
+						<div class="col-md-4">
+							<ul class="list-inline">
+								<li class="list-inline-item"> <img src="img/imgc.png" height="50" /> </li>
+								<li class="list-inline-item">
+									<p class="atag" style="text-align: left; font-size: 12px;">CAROL MALAVER
+										<br/> <span style="font-size: 10px;">
+                   18 de agosto 2021, 11:00 A. M
+                   </span> </p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-8">
+							<ul class="list-inline" id="Cicons1">
+								<li class="list-inline-item"><i class="fa fa-star-o" aria-hidden="true"></i>
+									<br/> Seguir Bogotá </li>
+								<li class="list-inline-item"><i class="fa fa-comment-o" aria-hidden="true"></i>
+									<br/>Comentar</li>
+								<li class="list-inline-item"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+									<br/>Guardar</li>
+								<li class="list-inline-item"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+									<br/>Reportar</li>
+								<li class="list-inline-item"><i class="fa fa-home" aria-hidden="true"></i>
+									<br/>Portada</li>
+							</ul>
+						</div>
+					</div>
+					<hr style="border-top: 1px solid #000;" />
+					<br/>
+					<div class="row">
+						<div class="col-md-5">
+							<ul class="list-inline">
+								<li class="list-inline-item"> <img src="img/icon-eltiempo.png" /> </li>
+								<li class="list-inline-item">
+									<p class="atag" style="text-align: left; font-size: 12px;font-size: 600;">DESCARGA LA APP EL TIEMPO
+										<br/> <span style="font-size: 10px;">
+                   Personaliza, descubre e informate </span> </p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-7">
+							<ul class="list-inline" id="ulbelowicons">
+								<li class="list-inline-item"><a><i class="fa fa-apple" aria-hidden="true"></i> App Store</a></li>
+								<li class="list-inline-item">
+									<a><img src="img/google-play.svg" height="20px" />&nbsp;google play</a>
+								</li>
+								<li class="list-inline-item">
+									<a><img src="img/huawei-icon.png" height="20px" />&nbsp;AppGallery</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<hr style="border-top: 1px solid #0072ac;" />
+					<hr style="border-top: 1px solid #0072ac;" />
+					<br/>
+					<div class="row">
+						<div class="col-md-6">
+							<h4 style="color:#000;font-weight: bold;font-size: 16px;">Descubre noticias para til</h4> </div>
+						<div class="col-md-6">
+							<div style="text-align: right;">
+								<a class="btn btn-outline-secondary mx-1 prev" href="javascript:void(0)" title="Previous"> <i class="fa fa-lg fa-chevron-left"></i> </a>
+								<a class="btn btn-outline-secondary mx-1 next" href="javascript:void(0)" title="Next"> <i class="fa fa-lg fa-chevron-right"></i> </a>
+							</div>
+						</div>
+					</div>
+					<br/>
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner w-100 mx-auto">
+							<div class="carousel-item active">
+								<div class="row">
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="card" style="width:190px;"> <img class="card-img-top" src="img/612ac984e67a5.jpeg" alt="Card image" style="width:100%">
+											<div class="card-body">
+												<p style="font-weight: bold;font-size: 12px;"> <span style="color:#0072ac">BOGOTÁAGO</span>
+													<br/> <span style="color:#666">28 DE 2021</span> </p>
+												<p class="card-text" style="color:#000;font-weight: bold;font-size: 12px;"> <a>Cinco joyas del ecoturismo cerca de Bogotá</a></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="card" style="width:190px;"> <img class="card-img-top" src="img/6111fe4c90704.png" alt="Card image" style="width:100%">
+											<div class="card-body">
+												<p style="font-weight: bold;font-size: 12px;"> <span style="color:#0072ac">BOGOTÁAGO</span>
+													<br/> <span style="color:#666">28 DE 2021</span> </p>
+												<p class="card-text" style="color:#000;font-weight: bold;font-size: 12px;"> <a>Cinco joyas del ecoturismo cerca de Bogotá</a></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="card" style="width:190px;"> <img class="card-img-top" src="img/6071ccac9e3f6.jpeg" alt="Card image" style="width:100%">
+											<div class="card-body">
+												<p style="font-weight: bold;font-size: 12px;"> <span style="color:#0072ac">BOGOTÁAGO</span>
+													<br/> <span style="color:#666">28 DE 2021</span> </p>
+												<p class="card-text" style="color:#000;font-weight: bold;font-size: 12px;"> <a>Cinco joyas del ecoturismo cerca de Bogotá</a></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="card" style="width:190px;"> <img class="card-img-top" src="img/612ac984e67a5.jpeg" alt="Card image" style="width:100%">
+											<div class="card-body">
+												<p style="font-weight: bold;font-size: 12px;"> <span style="color:#0072ac">BOGOTÁAGO</span>
+													<br/> <span style="color:#666">28 DE 2021</span> </p>
+												<p class="card-text" style="color:#000;font-weight: bold;font-size: 12px;"> <a>Cinco joyas del ecoturismo cerca de Bogotá</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="row">
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="card" style="width:190px;"> <img class="card-img-top" src="img/612ac984e67a5.jpeg" alt="Card image" style="width:100%">
+											<div class="card-body">
+												<p style="font-weight: bold;font-size: 12px;"> <span style="color:#0072ac">BOGOTÁAGO</span>
+													<br/> <span style="color:#666">28 DE 2021</span> </p>
+												<p class="card-text" style="color:#000;font-weight: bold;font-size: 12px;"> <a>Cinco joyas del ecoturismo cerca de Bogotá</a></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="card" style="width:190px;"> <img class="card-img-top" src="img/6071ccac9e3f6.jpeg" alt="Card image" style="width:100%">
+											<div class="card-body">
+												<p style="font-weight: bold;font-size: 12px;"> <span style="color:#0072ac">BOGOTÁAGO</span>
+													<br/> <span style="color:#666">28 DE 2021</span> </p>
+												<p class="card-text" style="color:#000;font-weight: bold;font-size: 12px;"> <a>Cinco joyas del ecoturismo cerca de Bogotá</a></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="card" style="width:190px;"> <img class="card-img-top" src="img/6111fe4c90704.png" alt="Card image" style="width:100%">
+											<div class="card-body">
+												<p style="font-weight: bold;font-size: 12px;"> <span style="color:#0072ac">BOGOTÁAGO</span>
+													<br/> <span style="color:#666">28 DE 2021</span> </p>
+												<p class="card-text" style="color:#000;font-weight: bold;font-size: 12px;"> <a>Cinco joyas del ecoturismo cerca de Bogotá</a></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 col-sm-12">
+										<div class="card" style="width:190px;"> <img class="card-img-top" src="img/612ac984e67a5.jpeg" alt="Card image" style="width:100%">
+											<div class="card-body">
+												<p style="font-weight: bold;font-size: 12px;"> <span style="color:#0072ac">BOGOTÁAGO</span>
+													<br/> <span style="color:#666">28 DE 2021</span> </p>
+												<p class="card-text" style="color:#000;font-weight: bold;font-size: 12px;"> <a>Cinco joyas del ecoturismo cerca de Bogotá</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<br/>
+							<div style="background-color: #e5f1f7;border-bottom: 1px solid #0072ac; height: 300px;width: 100%;"> </div>
+						</div>
+					</div>
+					<br/>
+					<br/>
+					<section class="pt-5 circle-1">
+						<a class="carousel-control-prev" href="#demo" data-slide="prev" style="opacity: 1; left: -10%;"> <i class="fa fa-chevron-left" style="color:#5969f6; font-size:30px;"></i> </a>
+						<a class="carousel-control-next" href="#demo" data-slide="next" style="opacity: 1; transform: rotate(-180deg); right: -10%;"> <i class="fa fa-chevron-left" style="color:#5969f6; font-size:30px;"></i> </a>
+					</section>
+					<br/>
+					<section style="margin-bottom: 30px;">
+						<div class="row">
+							<div class="col-12 col-md-12 col-lg-12">
+								<ul class="nav nav-pills">
+									<li class="nav-item"> <a class="nav-link active" data-toggle="pill" href="#flamingo" role="tab" aria-controls="pills-flamingo" aria-selected="true">Colombia</a> </li>
+									<li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#cuckoo" role="tab" aria-controls="pills-cuckoo" aria-selected="false">Internacional</a> </li>
+								</ul>
+								<div class="tab-content mt-3">
+									<div class="tab-pane fade show active" id="flamingo" role="tabpanel" aria-labelledby="flamingo-tab">
+										<div class="text-center">
+											<ul class="list-inline">
+												<li class="list-inline-item">Bogotá</li>
+												<li class="list-inline-item">Medellín</li>
+												<li class="list-inline-item">Cali</li>
+												<li class="list-inline-item">Barranquilla</li>
+												<li class="list-inline-item">Más Ciudades</li>
+											</ul>
+										</div>
+										<div class="row" style="padding: 2px;">
+											<div class="col-md-6">
+												<div class="row">
+													<div class="col-md-8">
+														<p class="courselTitle">SANTANDER <span class="courselTitle1">10:00 P. M.</span></p> <b>
+                    Experto plantea tres soluciones para la crisis de las basuras en Santander</b>
+														<p class="courselTitle2" style="font-size: 11px;"> Jaime Suárez, quien lleva más de una década estudiando los rellenos sa ... </p>
+													</div>
+													<div class="col-md-4"> <img src="img/6101b39dbb50d.jpeg" /> </div>
+												</div>
+												<hr/>
+												<div class="row">
+													<div class="col-md-8">
+														<p class="courselTitle">SANTANDER <span class="courselTitle1">10:00 P. M.</span></p> <b>
+                    Experto plantea tres soluciones para la crisis de las basuras en Santander</b>
+														<p class="courselTitle2" style="font-size: 11px;"> Jaime Suárez, quien lleva más de una década estudiando los rellenos sa ... </p>
+													</div>
+													<div class="col-md-4"> <img src="img/612cd0926a2fc.jpeg" /> </div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div style="margin-left: 10px;">
+													<div class="row">
+														<div class="col-md-8">
+															<p class="courselTitle">Violencia <span class="courselTitle1">10:00 P. M.</span></p> <b>
+                 
+Atentan contra líder indígena de Cauca e incineran su carro</b> </div>
+														<div class="col-md-4"> <img src="img/5d8cc690d58ef.jpeg" class="img-thumbnail" /> </div>
+													</div>
+													<hr/>
+													<div class="row">
+														<div class="col-md-8">
+															<p class="courselTitle">Violencia <span class="courselTitle1">10:00 P. M.</span></p> <b>
+                
+Atentan contra líder indígena de Cauca e incineran su carro</b> </div>
+														<div class="col-md-4"> <img src="img/6134cafec086c.jpeg" class="img-thumbnail" /> </div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="cuckoo" role="tabpanel" aria-labelledby="profile-tab">
+										<div class="text-center">
+											<ul class="list-inline">
+												<li class="list-inline-item">Bogotá</li>
+												<li class="list-inline-item">Medellín</li>
+												<li class="list-inline-item">Cali</li>
+												<li class="list-inline-item">Barranquilla</li>
+												<li class="list-inline-item">Más Ciudades</li>
+												<li class="list-inline-item">Medellín</li>
+												<li class="list-inline-item">Cali</li>
+												<li class="list-inline-item">Barranquilla</li>
+												<li class="list-inline-item">Más Ciudades</li>
+											</ul>
+										</div>
+										<div class="row" style="padding: 2px;">
+											<div class="col-md-6">
+												<div class="row">
+													<div class="col-md-8">
+														<p class="courselTitle">SANTANDER <span class="courselTitle1">10:00 P. M.</span></p> <b>
+                       Experto plantea tres soluciones para la crisis de las basuras en Santander</b>
+														<p class="courselTitle2" style="font-size: 11px;"> Jaime Suárez, quien lleva más de una década estudiando los rellenos sa ... </p>
+													</div>
+													<div class="col-md-4"> <img src="img/6101b39dbb50d.jpeg" /> </div>
+												</div>
+												<hr/>
+												<div class="row">
+													<div class="col-md-8">
+														<p class="courselTitle">SANTANDER <span class="courselTitle1">10:00 P. M.</span></p> <b>
+                       Experto plantea tres soluciones para la crisis de las basuras en Santander</b>
+														<p class="courselTitle2" style="font-size: 11px;"> Jaime Suárez, quien lleva más de una década estudiando los rellenos sa ... </p>
+													</div>
+													<div class="col-md-4"> <img src="img/612cd0926a2fc.jpeg" /> </div>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div style="margin-left: 10px;">
+													<div class="row">
+														<div class="col-md-8">
+															<p class="courselTitle">Violencia <span class="courselTitle1">10:00 P. M.</span></p> <b>
+                    
+   Atentan contra líder indígena de Cauca e incineran su carro</b> </div>
+														<div class="col-md-4"> <img src="img/5d8cc690d58ef.jpeg" class="img-thumbnail" /> </div>
+													</div>
+													<hr/>
+													<div class="row">
+														<div class="col-md-8">
+															<p class="courselTitle">Violencia <span class="courselTitle1">10:00 P. M.</span></p> <b>
+                   
+   Atentan contra líder indígena de Cauca e incineran su carro</b> </div>
+														<div class="col-md-4"> <img src="img/6134cafec086c.jpeg" class="img-thumbnail" /> </div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<div class="row">
+						<div class="col-md-6" style="border-right: 1px solid #666;">
+							<div class="row">
+								<div class="col-md-9">
+									<p><b>Horóscopo</b></p>
+									<br/>
+									<p><b>
+                    Encuentra acá todos los signos del zodiaco. Tenemos
+                     para ti consejos de amor, finanzas y muchas cosas más.
+                </b> </p>
+								</div>
+								<div class="col-md-3"> <img src="img/circle_icono_horoscopo.svg" /> </div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-9">
+									<p><b>Crucigrama</b></p>
+									<br/>
+									<p>Pon a prueba tus conocimientos con el crucigrama de <b>EL TIEMPO</b> </p>
+								</div>
+								<div class="col-md-3"> <img src="img/circle_icono_crucigrama.svg" /> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div style="margin-bottom:115px;"></div>
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item"> <a class="nav-link active tabtext" data-toggle="tab" href="#tabs-1" role="tab">Ponte al día</a> </li>
+						<li class="nav-item"> <a class="nav-link tabtext" data-toggle="tab" href="#tabs-2" role="tab">Lo más visto</a> </li>
+					</ul>
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div class="tab-pane active" id="tabs-1" role="tabpanel" style="border-left: 1px solid #dee2e6; border-bottom: 1px solid #dee2e6; border-right: 1px solid #dee2e6;">
+							<div class="row" style="padding: 2px;">
+								<div class="col-md-8">
+									<p class="courselTitle">Selección Colombia <span class="courselTitle1">02:16 A. M.</span></p>
+									<p class="courselTitle2" style="font-size: 11px;">Selección Colombia prendió motores para la eliminatoria</p>
+								</div>
+								<div class="col-md-4"> <img src="img/61298e2fe5f3f.jpeg" class="img-thumbnail" /> </div>
+							</div>
+							<hr />
+							<div class="row" style="padding: 2px;">
+								<div class="col-md-8">
+									<p class="courselTitle"><span class="courselTitle1">02:16 A. M.</span> Selección Colombia</p>
+									<p class="courselTitle2" style="font-size: 11px;">Selección Colombia prendió motores para la eliminatoria</p>
+								</div>
+								<div class="col-md-4"> <img src="img/61298e2fe5f3f.jpeg" class="img-thumbnail" /> </div>
+							</div>
+							<hr />
+							<div class="row" style="padding: 2px;">
+								<div class="col-md-8">
+									<p class="courselTitle"><span class="courselTitle1">02:00 A. M.</span> CONDUCTORES</p>
+									<p class="courselTitle2" style="font-size: 11px;"> Más de 3,8 millones de colombianos, a renovar su licencia de conducción </p>
+								</div>
+								<div class="col-md-4"> <img src="img/61298e2fe5f3f.jpeg" class="img-thumbnail" /> </div>
+							</div>
+							<hr />
+							<div class="row" style="padding: 2px;">
+								<div class="col-md-8">
+									<p class="courselTitle">Selección Colombia <span class="courselTitle1">02:16 A. M.</span></p>
+									<p class="courselTitle2" style="font-size: 11px;">Selección Colombia prendió motores para la eliminatoria</p>
+								</div>
+								<div class="col-md-4"> <img src="img/61298e2fe5f3f.jpeg" class="img-thumbnail" /> </div>
+							</div>
+						</div>
+						<div class="tab-pane" id="tabs-2" role="tabpanel" style="border-left: 1px solid #dee2e6; border-bottom: 1px solid #dee2e6; border-right: 1px solid #dee2e6;">
+							<div class="row" style="padding: 2px;">
+								<div class="col-md-2">
+									<p style="font-size: 50px; color: #0072ac; font-weight: bold;">1</p>
+								</div>
+								<div class="col-md-10">
+									<p class="courselTitle2"></p>
+									<p style="color: #3498db; text-transform: uppercase; font-size: 12px;">Conductores</p>
+									<p class="courselTitle2"> Más de 3,8 millones de colombianos, a renovar su licencia de conducción </p>
+								</div>
+							</div>
+							<hr />
+							<div class="row" style="padding: 2px;">
+								<div class="col-md-2">
+									<p style="font-size: 50px; color: #0072ac; font-weight: bold;">2</p>
+								</div>
+								<div class="col-md-10">
+									<p class="courselTitle2"></p>
+									<p style="color: #3498db; text-transform: uppercase; font-size: 12px;">Conductores</p>
+									<p class="courselTitle2"> Más de 3,8 millones de colombianos, a renovar su licencia de conducción </p>
+								</div>
+							</div>
+							<hr />
+							<div class="row" style="padding: 2px;">
+								<div class="col-md-2">
+									<p style="font-size: 50px; color: #0072ac; font-weight: bold;">3</p>
+								</div>
+								<div class="col-md-10">
+									<p class="courselTitle2"></p>
+									<p style="color: #3498db; text-transform: uppercase; font-size: 12px;">Conductores</p>
+									<p class="courselTitle2"> Más de 3,8 millones de colombianos, a renovar su licencia de conducción </p>
+								</div>
+							</div>
+							<hr />
+							<div class="row" style="padding: 2px;">
+								<div class="col-md-2">
+									<p style="font-size: 50px; color: #0072ac; font-weight: bold;">4</p>
+								</div>
+								<div class="col-md-10">
+									<p class="courselTitle2"></p>
+									<p style="color: #3498db; text-transform: uppercase; font-size: 12px;">Conductores</p>
+									<p class="courselTitle2"> Más de 3,8 millones de colombianos, a renovar su licencia de conducción </p>
+								</div>
+							</div>
+							<hr />
+							<div class="row" style="padding: 2px;">
+								<div class="col-md-2">
+									<p style="font-size: 50px; color: #0072ac; font-weight: bold;">5</p>
+								</div>
+								<div class="col-md-10">
+									<p class="courselTitle2"></p>
+									<p style="color: #3498db; text-transform: uppercase; font-size: 12px;">Conductores</p>
+									<p class="courselTitle2"> Más de 3,8 millones de colombianos, a renovar su licencia de conducción </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer style="margin-bottom: 20px;">
+			<hr style="border-top: 2px solid #0072ac;" />
+			<div class="row">
+				<div class="col-md-2" style="border-right: 1px solid #666;"> <img src="img/eltiempo_logo.png" height="60" /> </div>
+				<div class="col-md-7">
+					<p style="font-size: 12px;"> COPYRIGHT © 2021 EL TIEMPO Casa Editorial NIT. 860.001.022-7 . Prohibida su reproducción total o parcial, así como su traducción a cualquier idioma sin autorización escrita de su titular. ELTIEMPO.com todas las noticias principales de Colombia y el Mundo </p>
+				</div>
+				<div class="col-md-3"> <b>SÍGUENOS EN:</b>
+					<ul class="list-inline">
+						<li class="list-inline-item"><i class="fa fa-facebook"></i></li>
+						<li class="list-inline-item"><i class="fa fa-youtube"></i></li>
+						<li class="list-inline-item"><i class="fa fa-twitter"></i></li>
+						<li class="list-inline-item"><i class="fa fa-instagram"></i></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		$(".megamenu").on("click", function(e) {
+			e.stopPropagation();
+		});
+		$(function() {
+			"use strict";
+			$("#search").click(function() {
+				$(this).next().animate({
+					width: "250px",
+				});
+				$("#searchinput").show();
+			});
+		});
+	});
+	</script>
+</body>
+
+</html>
